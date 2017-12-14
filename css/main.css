@@ -1,15 +1,18 @@
+body {
+  background-color: #f7b617;
+}
+
 .logo {
-  width: 60%;
+  width: 65%;
 }
 
 .logo-write {
-  vertical-align: middle;
   width: 35%;
+  margin-top: -4px;
 }
 
 
-.bg-figure {
-  background-image: url('../assets/images/taxi.jpg');
+.bg-img {
   background-position: center center; 
   background-repeat: no-repeat;
   background-size: cover; 
@@ -17,13 +20,27 @@
   height: 100%;
 }
 
-.box-first {
-  background-color: gold;
+.bg-taxi {
+  background-image: url('../assets/images/taxi.jpg');
+}
+
+.box {
+  background-color: #f7b617;
   margin-top: 50%;
   margin-bottom: 50%;
 }
 
-.text-colors {
+.tx-white {
   color: white;
+}
+
+.box-1 {
+  border: 1px solid white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.p-20 {
+  padding: 20px;
 }
 
