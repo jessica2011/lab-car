@@ -1,5 +1,7 @@
 body {
   background-color: #f7b617;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
 }
 
 .logo {
@@ -17,15 +19,30 @@ body {
   background-repeat: no-repeat;
   background-size: cover; 
   width: 100%;
-  height: 100%;
 }
 
 .bg-taxi {
   background-image: url('../assets/images/taxi.jpg');
+  height: 100vh;
 }
 
-.box {
+.bg-conduce {
+  background-image: url('../assets/images/conduce.jpg');
+}
+
+.bg-tx-conduce {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-color {
   background-color: #f7b617;
+}
+
+.bg-color-footer {
+  background-color: #2b2b2b;
+}
+
+.m-top-bttm{
   margin-top: 50%;
   margin-bottom: 50%;
 }
@@ -36,11 +53,19 @@ body {
 
 .box-1 {
   border: 1px solid white;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
-.p-20 {
-  padding: 20px;
+.p-15 {
+  padding: 15px;
 }
+
+.color-place::placeholder {
+  color: white;
+}
+
+.pt-10 {
+  padding-bottom: 10px;
+}
+
 
