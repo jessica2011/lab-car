@@ -11,11 +11,11 @@ body {
 .logo-write {
   width: 35%;
   margin-top: -4px;
+  display: inline-block;
 }
 
-
 .bg-img {
-  background-position: center center; 
+  background-position: center bottom; 
   background-repeat: no-repeat;
   background-size: cover; 
   width: 100%;
@@ -31,11 +31,16 @@ body {
 }
 
 .bg-tx-conduce {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 50vh;
 }
 
 .bg-color {
   background-color: #f7b617;
+}
+
+.bg-color-white {
+  background-color: white;
 }
 
 .bg-color-footer {
@@ -43,8 +48,7 @@ body {
 }
 
 .m-top-bttm{
-  margin-top: 50%;
-  margin-bottom: 50%;
+  margin-top: 30vh;
 }
 
 .tx-white {
@@ -53,11 +57,15 @@ body {
 
 .box-1 {
   border: 1px solid white;
-  margin-top: 20px;
 }
 
 .p-15 {
   padding: 15px;
+}
+
+.m-20 {
+  margin-top:20px;
+  margin-bottom: 20px;
 }
 
 .color-place::placeholder {
@@ -67,5 +75,17 @@ body {
 .pt-10 {
   padding-bottom: 10px;
 }
+
+.line-p::before,
+.line-p::after {
+  content: '';
+  width: 25%;
+  height: 2px;
+  background-color: white;
+  display: inline-block;
+  margin: 4px 20px ;
+}
+
+
 
 
