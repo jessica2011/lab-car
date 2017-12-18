@@ -7,9 +7,9 @@
   <link rel="icon" href="assets/images/logoForma.png" sizes="7x4">
   <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/icons/css-fonts/font-awesome.min.css">
-  <link rel="stylesheet" href="modales/modales.html">
   <link rel="stylesheet" href="css/main.css">
   <title>Prácticando-bootstrap</title>
+
 </head>
 <body>
     <header class="bg-color-white">
@@ -114,8 +114,11 @@
               <a class="btn btn-default btn-lg navbar-text col-xs-offset-2">¡TRAZAR RUTA!</a>
             </div>
             <div class="bder col-md-6 col-sm-6">
-              <br>
+              <!-- <br>
               <img class="img-responsive"  src="assets/images/map.png" alt="map">
+              <br> -->
+              <br>
+              <div id="map"></div>
               <br>
             </div> 
           </div>
@@ -356,6 +359,15 @@
 <!-- Estructura de booststrap -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBARkXPF1snRRVHWJIinNK-ilNungyX25s&callback=initMap">
+    </script>
     <script type="text/javascript" src="js/app.js"></script>
+   
 </body>
 </html>
+
+
+
+
+
