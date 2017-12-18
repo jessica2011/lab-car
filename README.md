@@ -25,14 +25,14 @@ Crear la página de Lab>ar, usando bootstrap.
 
 ### Modal-Login
 
-![img-4](assets/docs/modal-login.png)
+![img-4](assets/docs/modal-login.PNG)
 
 ### Modal-Registro
 
-![img-5](assets/docs/modal-registro.png)
+![img-5](assets/docs/modal-registro.PNG)
 
 ### Modal-Registro-Conductor
 
-![img-6](assets/docs/modal-conductor.png)
+![img-6](assets/docs/modal-conductor.PNG)
 
 ***
