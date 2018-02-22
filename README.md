@@ -1,23 +1,17 @@
-# No reinventes la rueda
-* **Tema:**  _uso de bootstrap_
+# LabCar
+LabCard es un proyecto basado en ofrecer el servicio de taxi, además de ser un página responsive, que hace uso del framework CSS de bootstrap. Permite obtener el costo y tiempo de llegada del cliente.
 
-***
-## Objetivo:
-Crear la página de Lab>ar, usando bootstrap.
+![Versión Desktop](https://preview.ibb.co/fX6uNc/labcard.png)
 
-***
-
-### Lab>ar Desktop: 
-
-![img-1](assets/docs/lab-car-desktop.png)
+## Desarrollado para [Laboratoria](http://www.laboratoria.la/)
 
 ### Lab>ar Tablet: 
 
-![img-2](assets/docs/lab-car-tablet.png)
+![img-2](public/assets/docs/lab-car-tablet.png)
 
 ### Lab>ar Movil: 
 
-![img-3](assets/docs/lab-car-movil.png)
+![img-3](public/assets/docs/lab-car-movil.png)
 
 ***
 
@@ -25,14 +19,14 @@ Crear la página de Lab>ar, usando bootstrap.
 
 ### Modal-Login
 
-![img-4](assets/docs/modal-login.PNG)
+![img-4](public/assets/docs/modal-login.PNG)
 
 ### Modal-Registro
 
-![img-5](assets/docs/modal-registro.PNG)
+![img-5](public/assets/docs/modal-registro.PNG)
 
 ### Modal-Registro-Conductor
 
-![img-6](assets/docs/modal-conductor.PNG)
+![img-6](public/assets/docs/modal-conductor.PNG)
 
 ***

@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/icons/css-fonts/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
-  <title>Prácticando-bootstrap</title>
+  <title>LabCard</title>
 
 </head>
 <body>
@@ -99,19 +99,20 @@
           <h4>Consulta las tarifas LabCar aquí</h4>          
           <form role="form" class="form-horizontal ">
             <div class="form-group">
-              <label for="point-initial" class="col-xs-1 control-label"><img src="assets/images/shape.png" alt="icons"></label>
+              <label for="point-initial" class="col-xs-1 control-label"><a id="button-myUbication"><img src="assets/images/shape.png" alt="icons"></a></label>
               <div class="col-xs-10">
-                  <input type="text" class="form-control bg-color color-place tx-white" id="point-initial" placeholder="Ingrese punto de partida">
+                  <input type="text" class="form-control bg-color color-place tx-white" id="point-start" placeholder="Ingrese punto de partida">
               </div>
             </div>
             <div class="form-group ">
               <label for="point-initial" class="col-xs-1 control-label"><img src="assets/images/shape2.png" alt="icons"></label>
               <div class="col-xs-10">
-                <input type="text" class="form-control bg-color color-place tx-white" id="point-end" placeholder="Ingrese su destino">
+                <input type="text" class="form-control bg-color color-place tx-white" id="point-destination" placeholder="Ingrese su destino">
               </div>
             </div>
           </form>
-          <a class="btn btn-default btn-lg navbar-text col-xs-offset-2">¡TRAZAR RUTA!</a>
+          <a id="button-router" class="btn btn-default btn-lg navbar-text col-xs-offset-2">¡TRAZAR RUTA!</a><br><br><br>
+          <h4 id="tarifa" class="text-center"></h4>
         </div>
         <div class="bder col-md-6 col-sm-6">
           <!-- <br>
@@ -343,7 +344,7 @@
                 </div>
               </div>
             </form>
-          </div>
+          </div><br><br>
         </div>
       </div>
       <br>
@@ -356,7 +357,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
   <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBARkXPF1snRRVHWJIinNK-ilNungyX25s&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJFSdP4KQUJ1Yhjs3pkQz6h63CcZ-uQho&libraries=places&callback=initMap">
   </script>
   <script type="text/javascript" src="js/app.js"></script>
    
